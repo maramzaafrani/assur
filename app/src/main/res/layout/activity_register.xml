@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#F5F5F5"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/topImageRegister"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Register Image" />
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:inputType="text"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_input" />
+
+        <EditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_input" />
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_input" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/signupButtonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
