@@ -19,7 +19,6 @@
         android:id="@+id/nav_declaration_sinistre"
         android:title="Déclaration de Sinistre"
         android:icon="@drawable/ic_declaration_sinistre" />
-
     <item
         android:id="@+id/nav_contrat"
         android:title="Contrat"

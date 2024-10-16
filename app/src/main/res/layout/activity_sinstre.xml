@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".SinistreActivity">
 
     <!-- Toolbar with back arrow and add button -->
     <androidx.appcompat.widget.Toolbar
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Accueil"
+            android:text="Declaration sinistre "
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
